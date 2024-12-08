@@ -30,7 +30,7 @@ Roadmap
 Phase 1 (Q4 2024 - Q1 2025): Launch smart contract, deploy on Sepolia testnet, mint initial supply, and launch website.
 Phase 2 (Q1-Q3 2025): Community building, prototypes for governance and funding.
 Phase 3 (Q1-Q3 2027): Partnerships, NERD listing on exchanges.
-Phase 4 (Q4 2028+): Interplanetary trade, cross-chain use, collaboration with SpaceX.
+Phase 4 (Q4 2028+): Interplanetary trade, cross-chain use.
 Risk Disclaimer
 Cryptocurrency investments are volatile. NerdleCoin's success is not guaranteed due to market fluctuations, technological challenges, and regulatory changes.
 
