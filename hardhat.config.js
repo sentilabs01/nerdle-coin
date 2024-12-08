@@ -1,24 +1,16 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
+require('dotenv').config();
+require("@nomiclabs/hardhat-ethers");
+require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
-  solidity: {
-    version: "0.8.20",
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 200
-      }
-    }
-  },
+  solidity: "0.8.0",
   networks: {
-    sepolia: {
-      url: `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
-      accounts: [`${process.env.PRIVATE_KEY}`],
-      chainId: 11155111
-    }
+    mainnet: {
+      url: process.env.INFURA_API_KEY,  // Infura URL
+      accounts: [`0x${process.env.PRIVATE_KEY}`],  // Private key (make sure to prefix with 0x)
+    },
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY
-  }
+    apiKey: process.env.ETHERSCAN_API_KEY,  // Etherscan API key for verification
+  },
 };
